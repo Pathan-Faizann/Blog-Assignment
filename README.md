@@ -1,16 +1,39 @@
-# React + Vite
+Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview:
+This is a simple blog application built with React.js and Tailwind CSS.
+It displays a list of blogs, allows users to view blog details, and shows related blogs.
 
-Currently, two official plugins are available:
+Features:
+Blog listing page with "Load More" functionality
+Blog detail page with full content
+Related blogs section
+Skeleton loading for better user experience
+Responsive design for all screen sizes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack:
+React.js
+Tailwind CSS
+Axios
+React Router
 
-## React Compiler
+APIs Used:
+Posts API: https://jsonplaceholder.typicode.com/posts
+Image API: https://picsum.photos/600/400
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+Live Demo:
+https://blog-assignment-cyan.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Folder Structure:
+src/
+ ├── components/
+ ├── pages/
+ ├── services/
+
+ 
+Notes:
+Pagination is handled on the frontend using "Load More"
+Routing is managed using React Router
+Vercel is used for deployment
